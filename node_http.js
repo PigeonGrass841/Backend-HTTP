@@ -1,3 +1,4 @@
+// The constant http uses the require() method to include the Hyper Text Transfer Protocol (HTTP) module, which allows node.js to transfer data over with HTTP.
 const http = require('http');
 const server = http.createServer((req,res)=> {
     if (req.url === '/') {
